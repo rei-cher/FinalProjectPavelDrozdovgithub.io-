@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>Join Us</title>
+	<link type="text/css" href="nav-style.css" rel="stylesheet">
+	<link type="text/css" href="join.css" rel="join">
+	<script src="join.js"></script>
+	
+	<style>
+		.tab {
+			display:inline-block;
+			}
+		.vertical{
+			display: inline-block;
+			border-left: 1px solid white;
+			margin: 0px 100px 0 100px;
+			height: 60px;
+			}
+		.location{
+			width:70%;
+			}
+		.location h2{
+			color:#af3935;
+			}
+		.location h4{
+			color:grey;
+			}
+		.btn {
+			border: none;
+			outline: 0;
+			display: inline-block;
+			padding: 5px 40px 5px 40px;
+			color: white;
+			background-color: #af3935;
+			text-align: center;
+			cursor: pointer;
+			font-family:Franklin Gothic Heavy;
+			opacity:0.6;
+			}
+		.btn:hover {
+			opacity:1;
+			}
+		.column {
+			float: left;
+			width: 50%;
+			}
+		td{
+			color:white;
+			}
+		th{
+			font-size:36px;
+			}
+		tr{
+			margin-left:10px;
+			margin-right:10px;
+			}
+		
+	</style>
+	
+</head>
+
+<body bgcolor="black">
+	<form id="regForm">
+	<div style="margin-left:20%; margin-right:20%;">
+			<h2 style="color:white"> JOIN HARBOR FITNESS</h2>
+			<hr style="color:grey; height:0.1px">
+			<div>
+				<span class="step"><img src="pictures/location.png" alt="location" style="float:leaft"></span>
+				<span class="vertical"></span>
+				<span class="step"><img src="pictures/membership.png" alt="membership" style="float:leaft"></span>
+				<span class="vertical"></span>
+				<span class="step"><img src="pictures/payment.png" alt="payment" style="float:leaft"></span>
+			</div>
+			
+			<hr style="color:grey; height:0.1px">
+			
+			<div class="tab">
+				<div  class="column">
+					<div class="location">
+						<h2>Harbor Fitness Bay Ridge</h2>
+						<h4>9215 4th Avenue</h4>
+						<h4>718 238-9400</h4>
+						<button type="button" id="nextBtn" onclick="nextPrev(1)" class="btn"> select &#10095;</button>
+						<hr style="color:white; height:0.1px;">
+					</div>
+				
+					<div class="location">
+						<h2>Harbor Fitness Park Slope</h2>
+						<h4>191 15th Street</h4>
+						<h4>718 965-6200</h4>
+						<button type="button" id="nextBtn" onclick="nextPrev(1)" class="btn"> select &#10095;</button>
+						<hr style="color:white; height:0.1px;">
+					</div>
+				
+					<div class="location">
+						<h2>Harbor Fitness Mill Basin</h2>
+						<h4>6161 Strickland Avemue</h4>
+						<h4>718 763-9200</h4>
+						<button type="button" id="nextBtn" onclick="nextPrev(1)" class="btn"> select &#10095;</button>
+						<hr style="color:white; height:0.1px;">
+					</div>
+					
+					<div class="location">
+						<h2 style="color:green">Harbor Fitness GO! Marine Park</h2>
+						<h4>2825 Norstrand Avenue</h4>
+						<h4>718 676-9332</h4>
+						<button type="button" id="nextBtn" onclick="nextPrev(1)" class="btn"> select &#10095;</button>
+						<hr style="color:white; height:0.1px;">
+					</div>
+					
+					<div class="location">
+						<h2 style="color:green">Harbor Fitness GO! Bay Ridge</h2>
+						<h4>8701 4th Avenue</h4>
+						<h4>718 745-9400</h4>
+						<button type="button" id="nextBtn" onclick="nextPrev(1)" class="btn"> select &#10095;</button>
+						<hr style="color:white; height:0.1px;">
+					</div>
+				</div>
+				
+				<div class="column">
+					<<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1FpzlXYRi-oRX8iN2CCgRc_0dgFVA8lqG" width="640" height="720"></iframe>
+				</div>
+			</div>
+			
+			<div class="tab">
+					<table style="margin-left:20%; margin-right:20%;" border="0px">
+						<tr>
+							<th rowspan="6"><img src="pictures/pointer.png" style="width:240px; length:360px;"></th>
+							<th size="+1" width="33.33%" style="color:grey">Year Commitment</th>
+							<th rownspan="2" size="+1" width="33.33%" style="color:grey">$21/month</th>
+						</tr>
+						
+						<tr>
+							<td>First Month		$21.00</td>
+						</tr>
+						
+						<tr>
+							<td>Join Fee		$0.00</td>
+							<td rowspan="3"><button type="button" id="nextBtn" onclick="nextPrev(1)" class="btn" style="margin-left:25%">select this plan</button></td>
+						</tr>
+						
+						<tr>
+							<td>Annual Fee		$59.00</td>
+						</tr>
+						
+						<tr>
+							<td>Taxes			Included</td>
+						</tr>
+						
+						<tr>
+							<td>Due Today		$21.00</td>
+						</tr>
+						
+					</table>
+					
+					<br/><br/><br/><br/>
+					
+					<table style="margin-left:20%; margin-right:20%;" border="0px">
+						<tr>
+							<th rowspan="6"><img src="pictures/pointer.png" style="width:240px; length:360px;"></th>
+							<th size="+1" width="33.33%" style="color:grey">Month-to-Month</th>
+							<th rownspan="2" size="+1" width="33.33%" style="color:grey">$31/month</th>
+						</tr>
+						
+						<tr>
+							<td>First Month		$31.00</td>
+						</tr>
+						
+						<tr>
+							<td>Join Fee		$0.00</td>
+							<td rowspan="3"><button type="button" id="nextBtn" onclick="nextPrev(1)" class="btn" style="margin-left:25%">select this plan</button></td>
+						</tr>
+						
+						<tr>
+							<td>Annual Fee		$59.00</td>
+						</tr>
+						
+						<tr>
+							<td>Taxes			Included</td>
+						</tr>
+						
+						<tr>
+							<td>Due Today		$31.00</td>
+						</tr>
+						
+					</table>
+					
+					<br/><br/><br/><br/>
+					
+					<table style="margin-left:20%; margin-right:20%;" border="0px">
+						<tr>
+							<th rowspan="4"><img src="pictures/pointer.png" style="width:240px; length:360px;"></th>
+							<th size="+1" width="33.33%" style="color:grey">Year Paid In Full</th>
+							<th rownspan="2" size="+1" width="33.33%" style="color:grey">$0/month</th>
+						</tr>
+						
+						<tr>
+							<td>Join Fee		$299.00</td>
+						</tr>
+						
+						<tr>
+							<td>Taxes			Included</td>
+							<td rowspan="2"><button type="button" id="nextBtn" onclick="nextPrev(1)" class="btn" style="margin-left:25%">select this plan</button></td>
+						</tr>
+						
+						<tr>
+							<td>Due Today		$299.00</td>
+						</tr>
+						
+					</table>
+			</div>
+			
+			<div class="tab">
+				<form name="registration" class="reg">
+				<p>
+				<fieldset>
+					<h4 style="color:white">Step 1: Enter your personal information</h4>
+					<font style="color:white" face="Courier New">
+						Name:&nbsp;&nbsp;&nbsp;<input name="cname" size="48" type="text">
+						Date of Birth:<input name="dob" size="10" type="date"><br/>
+						Address:<input name="address" size="89" type="text"><br>
+						City:&nbsp;&nbsp;&nbsp;<input name="city" size="32" type="text">&nbsp;&nbsp;&nbsp;
+						State:<input name="state" size="2" type="text">&nbsp;&nbsp;&nbsp;
+						Zip:<input name="zip" size="5" type="number"><br/>
+						Home Phone:<input name="hphone" size="27" type="number">Alternate Phone:<input name="aphone" size="28" type="number"><br/>
+						E-Mail:<input name="email" size="75" type="email"></br></p>
+					</font>
+				</fieldset>
+					<br/><br/>
+				<fieldset>
+					<h4 style="color:white">Step 2: Payment Information</h4>
+					<font style="color:white" face="Courier New">
+						Name on Card:<input name="cardname" size="52" type="text">&nbsp;
+						Credit Card Number:<input name="cnum" size="16" type="number"><br/>
+						Exp Date:<input name="edate" size="8" type="date">
+						CVV:<input name="cvv" size="3" type="number">
+					</font>
+				</fieldset>
+				</p>
+				<button type="button" id="nextBtn" class="btn" onClick="doSubmit()">Submit</button>
+				<button type="button" class="btn" onClick="doClear()">Clear</button>
+				</form>
+			</div>
+			
+	
+			<br/><br/><br/><br/>
+			
+			<div style="overflow:auto;">
+				<div style="float:right">
+					<button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+				</div>
+			</div>
+			
+	</div>	
+	</form>
+	
+</body>
+<footer>
+		<div class="bottom">
+			<a href="index.html">HOME</a>
+			<a href="join.html">JOIN</a>
+			<a href="contact.html">CONTACT US</a>
+		</div>
+				
+</footer>
+</html>

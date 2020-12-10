@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml/DTD/xhtml1 transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Contact</title>
+
+<link type="text/css" href="nav-style.css" rel="stylesheet">
+
+ <style>
+	input[type=text], select, textarea {
+		width: 100%; /* Full width */
+		padding: 12px; /* Some padding */ 
+		border: 1px solid #ccc; /* Gray border */
+		border-radius: 4px; /* Rounded borders */
+		box-sizing: border-box; /* Make sure that padding and width stays in place */
+		margin-top: 6px; /* Add a top margin */
+		margin-bottom: 16px; /* Bottom margin */
+		resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	}
+
+
+	input[type=submit] {
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 12px 20px;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
+
+
+	input[type=submit]:hover {
+	  background-color: #45a049;
+	}
+
+
+	.container {
+	  border-radius: 5px;
+	  position:relative;
+	  top:10%;
+	  padding: 20px;
+	}
+	
+	label{
+		color:white;
+		font-size:36px;
+		}
+	
+	body {
+			background-image:url("pictures/body-image.jpg");
+			background-position: center;
+			background-repeat: repeat;
+			background-size: cover;
+			position: relative;
+			}
+	h1{
+		color:white;
+		text-align:center;
+		}
+	i{
+		color:#af3935;
+	}
+		
+ </style>
+</head>
+<body>
+
+	<header>
+		
+			<div class="topnav" id="topNav">
+				<a href="contact.html">Contact Us</a>
+				<a href="join.html">Join Us</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="membership.html">Membership</a>
+				<a href="index.html">Home</a>
+				<a href="index.html" class="picture"><img src="pictures/logo.png" alt="logo" style="float:left; height:2%; width:3%;"></a>
+			</div>
+			
+			
+	</header>
+	
+	<h1>If you have any questions, feel free to text us.</h1>
+	<h1>Or you can call us : <i>718 238-9400</i></h1>
+
+	<div class="container">
+		<form>
+
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+			<label for="state">State</label>
+			<select id="state" name="state">
+			  <option value="Alabama">AL</option>
+			  <option value="Alaska">AK</option>
+			  <option value="Arizon">AZ</option>
+			  <option value="Arkansas">AR</option>
+			  <option value="California">CA</option>
+			  <option value="Colorado - CO">AZ</option>
+			  <option value="CConnecticut - CT">AZ</option>
+			  <option value="Delaware - DE">AZ</option>
+			  <option value="Florida">FL</option>
+			  <option value="Georgia">GA</option>
+			  <option value="Hawaii">HI</option>
+			  <option value="Idaho">ID</option>
+			  <option value="Illinois">IL</option>
+			  <option value="Indiana">IN</option>
+			  <option value="Iowa">IA</option>
+			  <option value="Kansas">KS</option>
+			  <option value="Kentucky">KY</option>
+			  <option value="Louisiana">LA</option>
+			  <option value="Maine">ME</option>
+			  <option value="Maryland">MD</option>
+			  <option value="Massachusetts">MA</option>
+			  <option value="New York">NY</option>
+			</select>
+
+			<label for="subject">Subject</label>
+			<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+			<input type="submit" value="Submit">
+
+		  </form>
+	
+	</div>
+	
+</body>
+
+<footer>
+		<div class="bottom">
+			<a href="index.html">HOME</a>
+			<a href="join.html">JOIN</a>
+			<a href="contact.html">CONTACT US</a>
+		</div>
+				
+</footer>
+
+</html>
